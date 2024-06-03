@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         feedback.innerHTML = `<h3>Name: ${name}</h3>
             <p>Rating: ${rating}</p>
             <p>Comments: ${comments}</p>`;
+            
         feedbackDisplay.appendChild(feedback);
         form.reset();});
 });
