@@ -1,1 +1,1 @@
-# Project-7
+Project 7 is about creating a personal place for customers to provide feedback to a company through an online portal. The portal can allow for customers to submit any feedback, comments, or concerns that will be posted to the same page upon submission. 
