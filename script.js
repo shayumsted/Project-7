@@ -12,14 +12,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (!name ==='' || !rating ==='' || !comments ==='') {
             alert('All fields are required!');
-            return;
-        }
-
+            return;}
+            
         const feedback = document.createElement('div');
         feedback.classList.add('feedback');
-        feedback.innerHTML = `<h3>${name}</h3>
+        feedback.innerHTML = `<h3>Name: ${name}</h3>
             <p>Rating: ${rating}</p>
-            <p>${comments}</p>`;
+            <p>Comments: ${comments}</p>`;
         feedbackDisplay.appendChild(feedback);
         form.reset();});
 });
