@@ -17,11 +17,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const feedback = document.createElement('div');
         feedback.classList.add('feedback');
-        feedback.innerHTML = `
-            <h3>${name}</h3>
+        feedback.innerHTML = `<h3>${name}</h3>
             <p>Rating: ${rating}</p>
-            <p>${comments}</p>
-        `;
+            <p>${comments}</p>`;
 
         feedbackDisplay.appendChild(feedback);
         form.reset();});
